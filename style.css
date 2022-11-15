@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(./src/a.jpg) no-repeat center;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  height: 100vh;
+}
+
+body::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  -webkit-background-color: rgba(0, 0, 0, 0.194);
+  background-color: rgba(0, 0, 0, 0.194);
+}
+
+audio,
+.love_you {
+  position: absolute;
+  left: 50%;
+  top: 1.5rem;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1809185784;
+}
+
+.love_you {
+  top: 49%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffc0cb;
+  letter-spacing: 0.05rem;
+  animation: blink 2s linear infinite, love-xf 1.2s alternate ease-in-out;
+  -webkit-animation: blink 2s linear infinite;
+  -moz-animation: blink 2s linear infinite;
+  -ms-animation: blink 2s linear infinite;
+  -o-animation: blink 2s linear infinite;
+  user-select: none;
+  -webkit-text-shadow: 0 0 8px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+#lovexf {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 520;
+}
+
+@keyframes love-xf {
+  0% {
+    opacity: 0.08;
+    filter: blur(8px);
+    letter-spacing: 0.1rem;
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    letter-spacing: 0.05rem;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-ms-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.zimu {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 9%;
+  color: #baff4b;
+  white-space: nowrap;
+  animation: notableAnimation 8s linear infinite;
+}
+.zimu2 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 16%;
+  color: #f175d099;
+  white-space: nowrap;
+  animation: notableAnimation2 15s linear infinite;
+}
+.zimu3 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 27%;
+  color: #fab9cffd;
+  white-space: nowrap;
+  animation: notableAnimation2 13s linear infinite;
+}
+.zimu4 {
+  font-size: 18pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 32%;
+  color: #f03e53;
+  white-space: nowrap;
+  animation: notableAnimation 9s linear infinite;
+}
+.zimu5 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 38%;
+  color: #cac7c1;
+  white-space: nowrap;
+  animation: notableAnimation 18s linear infinite;
+}
+.zimu6 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 55%;
+  color: #559def;
+  white-space: nowrap;
+  animation: notableAnimation2 8s linear infinite;
+}
+.zimu7 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 67%;
+  color: #c6f4d3;
+  white-space: nowrap;
+  animation: notableAnimation 9s linear infinite;
+}
+.zimu8 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 76%;
+  color: #c0535b;
+  white-space: nowrap;
+  animation: notableAnimation2 17s linear infinite;
+}
+.zimu9 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 87%;
+  color: #1be278;
+  white-space: nowrap;
+  animation: notableAnimation 9s linear infinite;
+}
+.zimu10 {
+  font-size: 17pt;
+  margin-left: 20rpx;
+  position: absolute;
+  top: 93%;
+  color: #fdcc69;
+  white-space: nowrap;
+  animation: notableAnimation2 9.9s linear infinite;
+}
+@keyframes notableAnimation {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    transform: translateX(-100%);
+    left: 0;
+  }
+}
+@keyframes notableAnimation2 {
+    0% {
+        transform: translateX(-100%);
+        left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
